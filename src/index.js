@@ -8,17 +8,17 @@ const dockerHub = "https://registry-1.docker.io";
 
 const routes = {
   // production
-  "docker.ytss.cloudns.be": dockerHub,
-  "quay.ytss.cloudns.be": "https://quay.io",
-  "gcr.ytss.cloudns.be": "https://gcr.io",
-  "k8s-gcr.ytss.cloudns.be": "https://k8s.gcr.io",
-  "k8s.ytss.cloudns.be": "https://registry.k8s.io",
-  "ghcr.ytss.cloudns.be": "https://ghcr.io",
-  "cloudsmith.ytss.cloudns.be": "https://docker.cloudsmith.io",
-  "ecr.ytss.cloudns.be": "https://public.ecr.aws",
+  "docker.worker.ytss.cloudns.be": dockerHub,
+  "quay.worker.ytss.cloudns.be": "https://quay.io",
+  "gcr.worker.ytss.cloudns.be": "https://gcr.io",
+  "k8s-gcr.worker.ytss.cloudns.be": "https://k8s.gcr.io",
+  "k8s.worker.ytss.cloudns.be": "https://registry.k8s.io",
+  "ghcr.worker.ytss.cloudns.be": "https://ghcr.io",
+  "cloudsmith.worker.ytss.cloudns.be": "https://docker.cloudsmith.io",
+  "ecr.worker.ytss.cloudns.be": "https://public.ecr.aws",
 
   // staging
-  "docker-staging.ytss.cloudns.be": dockerHub,
+  "docker-staging.worker.ytss.cloudns.be": dockerHub,
 };
 
 function routeByHosts(host) {
